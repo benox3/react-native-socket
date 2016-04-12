@@ -1,0 +1,26 @@
+{
+    "ignore": [
+        "*.idea/",
+        "*.scss",
+        "*.log",
+        "*.md",
+        "*.swp",
+        ".git",
+        "node_modules/",
+        "coverage/",
+        "logs/",
+        "build/",
+        "dist/",
+        "src/app/",
+        "test/",
+        "hooks/",
+        "gulpfile.js",
+        "nodemon.json"
+    ],
+    "verbose": true,
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "vocativ-site"
+    },
+    "ext": "js jsx json"
+}
