@@ -35,7 +35,7 @@
     "redux": "3.1.7",
     "redux-thunk": "1.0.3",
     "socket.io": "^1.4.5",
-    "socket.io-client": "^1.4.5",
+    "socket.io-client": "https://github.com/benox3/socket.io-client.git#27f60e1",
     "webpack": "^1.12.14"
   }
 }
