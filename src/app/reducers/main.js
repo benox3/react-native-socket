@@ -3,15 +3,13 @@
 import * as types from '../actions/actionTypes';
 import config from '../config';
 
-window.navigator.userAgent = "react-native";
-
 const initialState = {
     isFetching: true,
     question: '',
     latest: ''
 };
 
-export default function main(state = initialState, action = {}) {
+    export default function main(state = initialState, action = {}) {
     switch (action.type) {
         case types.GET_LATEST:
             return
